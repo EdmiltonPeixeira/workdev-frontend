@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <ApiComponente></ApiComponente>
+  <div id="app">
+    <AtaComponent />
+  </div>
 </template>
 
 <script>
-import ApiComponente from './components/ApiComponente.vue';
+import AtaComponent from './components/AtaComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    ApiComponente
+    AtaComponent
   }
 }
 </script>
